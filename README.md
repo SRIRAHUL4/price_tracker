@@ -25,7 +25,7 @@ def check_price():
     print(title.strip())
 
 
-#Sending Mail using Gmail
+
 def send_mail():
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
@@ -46,5 +46,6 @@ def send_mail():
     print("Mail has been sent")
     server.quit()
 
-#Function Call
+
 check_price()
+
